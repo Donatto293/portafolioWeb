@@ -1,0 +1,63 @@
+{
+  "section": {
+    "eyebrow": "What I work with",
+    "heading": "Technical Skills"
+  },
+  "categories": [
+    {
+      "title": "Frontend Development",
+      "skills": [
+        { "name": "HTML5", "icon": "simple-icons:html5" },
+        { "name": "CSS3", "icon": "simple-icons:css3" },
+        { "name": "JavaScript", "icon": "simple-icons:javascript" },
+        { "name": "TypeScript", "icon": "simple-icons:typescript" },
+        { "name": "React", "icon": "simple-icons:react" },
+        { "name": "Bootstrap", "icon": "simple-icons:bootstrap" },
+        { "name": "Tailwind CSS", "icon": "simple-icons:tailwindcss" }
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "skills": [
+        { "name": "Python", "icon": "simple-icons:python" },
+        { "name": "Django", "icon": "simple-icons:django" },
+        { "name": "Java", "icon": "simple-icons:java" },
+        { "name": "REST APIs", "icon": "simple-icons:restapi" }
+      ]
+    },
+    {
+      "title": "Mobile Development",
+      "skills": [
+        { "name": "React Native", "icon": "simple-icons:react" },
+        { "name": "Expo", "icon": "simple-icons:expo" }
+      ]
+    },
+    {
+      "title": "Databases",
+      "skills": [
+        { "name": "PostgreSQL", "icon": "simple-icons:postgresql" },
+        { "name": "MySQL", "icon": "simple-icons:mysql" },
+        { "name": "SQLite", "icon": "simple-icons:sqlite" }
+      ]
+    },
+    {
+      "title": "DevOps & Tools",
+      "skills": [
+        { "name": "Git", "icon": "simple-icons:git" },
+        { "name": "GitHub", "icon": "simple-icons:github" },
+        { "name": "Docker", "icon": "simple-icons:docker" },
+        { "name": "Jenkins", "icon": "simple-icons:jenkins" },
+        { "name": "Jira", "icon": "simple-icons:jira" }
+      ]
+    },
+    {
+      "title": "Development Workflow",
+      "skills": [
+        { "name": "Vite", "icon": "simple-icons:vite" },
+        { "name": "Node.js", "icon": "simple-icons:nodejs" },
+        { "name": "Postman", "icon": "simple-icons:postman" },
+        { "name": "Visual Studio Code", "icon": "simple-icons:visualstudiocode" }
+      ]
+    }
+  ]
+}

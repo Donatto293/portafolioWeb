@@ -1,0 +1,17 @@
+[
+  {
+    "title": "AgroConexión – Marketplace Campesino Mobile App",
+    "category": "Mobile Development",
+    "description": "A full-featured mobile marketplace application focused on connecting farmers directly with customers. Developed with React Native and Django REST Framework, the app includes authentication, product management, shopping cart, favorites system, multilingual support, AI-assisted product recognition, coupons, ratings and comments, order management, and responsive user interfaces. Built with a focus on usability, scalability, and real-world business workflows.",
+    "images": [
+    "/images/portfolio/agroconexion-1.jpg",
+    "/images/portfolio/agroconexion-2.jpg",
+    "/images/portfolio/agroconexion-3.jpg"
+    ],
+    "slides": [
+    "Home & Product Catalog",
+    "Shopping Cart & Checkout",
+    "AI Product Recognition & Product Management"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "key": "backend",
+      "icon": "server-stack",
+      "title": "Backend Development",
+      "description": "Development of robust backend systems using Django, REST APIs, and relational databases such as PostgreSQL and MySQL. Focused on creating scalable, secure, and efficient server-side solutions."
+    },
+    {
+      "key": "frontend",
+      "icon": "code-bracket-square",
+      "title": "Frontend Development",
+      "description": "Building modern and responsive web interfaces with React, TypeScript, HTML, and CSS, creating user-friendly experiences with clean and maintainable code."
+    },
+    {
+      "key": "mobile",
+      "icon": "device-phone-mobile",
+      "title": "Mobile Development",
+      "description": "Development of mobile applications using React Native, integrating APIs and creating functional cross-platform experiences focused on usability and performance."
+    },
+    {
+      "key": "collaboration",
+      "icon": "users",
+      "title": "Teamwork & Continuous Learning",
+      "description": "Experience working with tools such as GitHub and Jira in collaborative environments, with a strong commitment to continuous learning, problem-solving, and professional growth."
+    }
+  ]
+}

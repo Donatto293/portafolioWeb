@@ -1,0 +1,66 @@
+{
+  "layout": "grid",
+  "items": [
+    {
+      "title": "Enterprise Management System",
+      "featured": true,
+      "resume": true,
+      "company": "Professional Experience",
+      "category": "webdev",
+      "description": "Web platform developed for managing internal company processes, including administrative operations, data management, user workflows, and system integrations. Participated in frontend and backend development implementing new features, API integrations, responsive interfaces, and database-connected functionalities using Django, React, and TypeScript.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Django",
+        "REST API",
+        "PostgreSQL",
+        "Git",
+        "Jira",
+        "Frontend",
+        "Backend"
+      ],
+      "icon": "computer-desktop",
+      "sliderImage": "/images/projects/company-system1.jpg",
+      "sliderOrder": 1,
+      "backgroundImage": "/images/projects/company-system2.jpg",
+      "images": [
+        "/images/projects/company-system1.jpg",
+        "/images/projects/company-system2.jpg",
+        "/images/projects/company-system3.jpg"
+      ],
+      "link": "",
+      "colorIcon": "devicon:react",
+      "githubRepo": ""
+    },
+
+    {
+      "title": "AgroConexión - Farmers Marketplace App",
+      "featured": true,
+      "resume": true,
+      "company": "Personal Project",
+      "category": "appdev",
+      "description": "Mobile application built with React Native focused on connecting farmers with customers. Includes authentication, product management, shopping cart, favorites, multilingual support, coupons, ratings, image upload, and REST API integration.",
+      "tags": [
+        "React Native",
+        "Expo",
+        "JavaScript",
+        "Django",
+        "REST API",
+        "Mobile App"
+      ],
+      "icon": "device-phone-mobile",
+      "sliderImage": "/images/projects/agro1.jpg",
+      "sliderOrder": 2,
+      "backgroundImage": "/images/projects/agro2.jpg",
+      "images": [
+        "/images/projects/agro1.jpg",
+        "/images/projects/agro2.jpg",
+        "/images/projects/agro3.jpg",
+        "/images/projects/agro4.jpg"
+      ],
+      "link": "",
+      "colorIcon": "devicon:react",
+      "githubRepo": ""
+    }
+  ]
+}

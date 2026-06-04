@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Beginner Programming G5 - ONE",
+    "issuer": "Oracle & Alura Latam",
+    "date": "April 2023",
+    "status": "Completed",
+    "type": "certification",
+    "description": "Introduction to programming fundamentals, logic, algorithms, and software development foundations through Oracle Next Education.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "Object-Oriented Java G5 - ONE",
+    "issuer": "Oracle & Alura Latam",
+    "date": "July 2023",
+    "status": "Completed",
+    "type": "certification",
+    "description": "Training focused on object-oriented programming concepts using Java, including classes, inheritance, encapsulation, and software architecture basics.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "Java & Spring Boot G5 - ONE",
+    "issuer": "Oracle & Alura Latam",
+    "date": "September 2023",
+    "status": "Completed",
+    "type": "professional-development",
+    "description": "Backend development with Java and Spring Boot, building REST APIs, handling business logic, and integrating backend services.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "Java Database Integration",
+    "issuer": "Oracle & Alura Latam",
+    "date": "August 2023",
+    "status": "Completed",
+    "type": "professional-development",
+    "description": "Integration of Java applications with relational databases using MySQL and SQL queries.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "Python Pandas: Data Processing & Analysis",
+    "issuer": "Oracle & Alura Latam",
+    "date": "October 2023",
+    "status": "Completed",
+    "type": "professional-development",
+    "description": "Data manipulation and analysis using Python and Pandas, including spreadsheets, data cleaning, and automation tasks.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "SQL with MySQL",
+    "issuer": "Oracle & Alura Latam",
+    "date": "August 2023",
+    "status": "Completed",
+    "type": "certification",
+    "description": "Database querying, relational database concepts, and SQL operations using MySQL.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "Excel Basic - Intermediate",
+    "issuer": "Fundación Universitaria Compensar",
+    "date": "November 2023",
+    "status": "Completed",
+    "type": "professional-development",
+    "description": "Spreadsheet management, formulas, data organization, and intermediate Excel tools for productivity and reporting.",
+    "credentialUrl": ""
+  }
+]

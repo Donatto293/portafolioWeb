@@ -1,0 +1,107 @@
+{
+  "title": "Kevin Donato | Software Developer",
+  "description": "Portfolio of Kevin Donato, software developer specialized in Django, React, React Native, and TypeScript. Explore real-world projects, mobile applications, and full stack development experience.",
+  "ogSiteName": "Kevin Donato Portfolio",
+  "shortName": "DONATO",
+  "tagline": "Building web & mobile applications · Full Stack Development · Real-world solutions",
+  "themeStorageKey": "portfolio-theme",
+  "web3formsKey": "WEB3FORMS_KEY",
+
+  "footerAttribution": {
+    "builder": "Built with Astro open-source portfolio template",
+    "builderUrl": "https://github.com/MarcusHoltz/astro-portfolio-theme",
+    "host": "Hosted portfolio",
+    "hostUrl": "https://yourdomain.com"
+  },
+
+  "retroTvCount": 21,
+
+  "seoKeywords": [
+    "Software Developer",
+    "Full Stack Developer",
+    "Django Developer",
+    "React Developer",
+    "React Native",
+    "TypeScript",
+    "Python Developer",
+    "Mobile Applications",
+    "Web Development",
+    "Frontend Developer",
+    "Backend Developer",
+    "Portfolio",
+    "Software Engineer",
+    "Expo React Native",
+    "REST APIs",
+    "Docker",
+    "GitHub",
+    "Jenkins",
+    "Automation with Python",
+    "Cross Platform Apps"
+  ],
+
+  "navExternal": [
+    {
+      "label": "GitHub",
+      "desc": "Projects and repositories",
+      "personalKey": "github",
+      "urlTemplate": "https://github.com/{value}"
+    },
+    {
+      "label": "LinkedIn",
+      "desc": "Professional profile",
+      "personalKey": "linkedin",
+      "urlTemplate": "https://linkedin.com/in/{value}"
+    },
+    {
+      "label": "Email",
+      "desc": "Contact me directly",
+      "personalKey": "email",
+      "urlTemplate": "mailto:{value}"
+    },
+    {
+      "label": "Phone",
+      "desc": "Available for opportunities",
+      "personalKey": "phone",
+      "urlTemplate": "tel:{value}"
+    }
+  ],
+
+  "serviceSites": [
+    {
+      "badge": "Full Stack Development",
+      "badgeColor": "#2563eb",
+      "cardAccent": "#2563eb",
+      "glowColor": "rgba(37, 99, 235, 0.15)",
+      "iconBg": "rgba(37, 99, 235, 0.10)",
+      "iconBorder": "rgba(37, 99, 235, 0.20)",
+      "iconType": "web",
+      "name": "Web & Mobile Solutions",
+      "url": "",
+      "description": "Development of scalable web and mobile applications using Django, React, React Native, and TypeScript. Focused on clean architecture, APIs, responsive interfaces, and real-world business solutions.",
+      "features": [
+        "Frontend & Backend Development",
+        "REST API Integration",
+        "Responsive Mobile Applications"
+      ],
+      "ctaText": "View Projects"
+    },
+    {
+      "badge": "Automation & Tools",
+      "badgeColor": "#10b981",
+      "cardAccent": "#10b981",
+      "glowColor": "rgba(16, 185, 129, 0.15)",
+      "iconBg": "rgba(16, 185, 129, 0.10)",
+      "iconBorder": "rgba(16, 185, 129, 0.20)",
+      "iconType": "server",
+      "name": "Python Automation",
+      "url": "",
+      "description": "Automation scripts and workflow improvements using Python, focused on Excel processing, data management, backend tasks, and development productivity.",
+      "features": [
+        "Excel Data Automation",
+        "Workflow Optimization",
+        "Backend Utilities & Scripts"
+      ],
+      "ctaText": "Explore Experience"
+    }
+  ]
+}
