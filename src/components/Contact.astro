@@ -143,7 +143,7 @@ const socialLinks = getSocialLinks(personalData as unknown as Record<string, str
 
         <div class="card reveal" style="transition-delay: 0.2s;">
           <form id="contact-form" class="space-y-4" novalidate>
-            <input type="hidden" name="access_key" value={siteData.web3formsKey} />
+            <input type="hidden" name="access_key" value={import.meta.env.PUBLIC_WEB3FORMS_KEY} />
             <!-- Honeypot: hidden from users but bots fill it in.
                  Web3Forms rejects any submission where this field is checked. -->
             <input

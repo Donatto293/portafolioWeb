@@ -8,10 +8,10 @@
   "web3formsKey": "WEB3FORMS_KEY",
 
   "footerAttribution": {
-    "builder": "Built with Astro open-source portfolio template",
-    "builderUrl": "https://github.com/MarcusHoltz/astro-portfolio-theme",
-    "host": "Hosted portfolio",
-    "hostUrl": "https://yourdomain.com"
+    "builder": "Designed & developed by Kevin Donato",
+    "builderUrl": "https://github.com/Donatto293",
+    "host": "Hosted on Vercel",
+    "hostUrl": "https://vercel.com"
   },
 
   "retroTvCount": 21,
@@ -57,12 +57,6 @@
       "desc": "Contact me directly",
       "personalKey": "email",
       "urlTemplate": "mailto:{value}"
-    },
-    {
-      "label": "Phone",
-      "desc": "Available for opportunities",
-      "personalKey": "phone",
-      "urlTemplate": "tel:{value}"
     }
   ],
 
