@@ -3,7 +3,7 @@ import certificationsData from '../data/certifications.json';
 
 type CertType = 'certification' | 'professional-development' | 'in-progress';
 
-// Returns the CSS class for the status badge chip (green / amber / blue).
+// Returns the CSS class for the status badge chip 
 function badgeClass(type: CertType) {
   if (type === 'professional-development') return 'badge-pro-dev';
   if (type === 'in-progress') return 'badge-in-progress';
@@ -76,41 +76,6 @@ function cardModClass(type: CertType) {
 
                 <div class="flex items-center justify-between pt-2 border-t border-white/5">
                   <span class="text-xs text-slate-600 font-mono">{cert.date}</span>
-
-                  {type === 'in-progress' ? (
-                    <span class="in-progress-label">
-                      <span class="ip-pulse" />
-                      Actively Studying
-                    </span>
-                  ) : cert.credentialUrl ? (
-                    <a
-                      href={cert.credentialUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class={`inline-flex items-center gap-1.5 transition-colors text-xs font-medium ${type === 'professional-development' ? 'text-amber-500/70 hover:text-amber-400' : 'text-accent hover:text-highlight'}`}
-                    >
-                      <span>
-                        {type === 'professional-development'
-                          ? 'View Certificate'
-                          : 'View Credential'}
-                      </span>
-                      <svg
-                        class="w-3.5 h-3.5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                        />
-                      </svg>
-                    </a>
-                  ) : (
-                    <span class="text-slate-700 text-xs italic">No link available</span>
-                  )}
                 </div>
               </div>
             </div>
