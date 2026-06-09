@@ -61,5 +61,25 @@
     "type": "professional-development",
     "description": "Spreadsheet management, formulas, data organization, and intermediate Excel tools for productivity and reporting.",
     "credentialUrl": ""
+  },
+  {
+    "name": "Curso Ingenieria de Prompts",
+    "issuer": "codigoFacilito",
+    "date": "June 2026",
+    "status": "Completed",
+    "type": "professional-development",
+     "description": "Prompt engineering techniques for AI systems, including effective prompt design, context optimization, structured instructions, and practical applications with modern language models.",
+    "credentialUrl": ""
+  },
+  {
+    "name": "Curso Profesional de Typescript",
+    "issuer": "codigoFacilito",
+    "date": "June 2026",
+    "status": "Completed",
+    "type": "professional-development",
+    "description": "Advanced TypeScript development including static typing, interfaces, generics, object-oriented patterns, API integration, and scalable application architecture for modern web applications.",
+    "credentialUrl": ""
   }
+  
+
 ]
