@@ -117,7 +117,7 @@ const hasPortrait =
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 reveal" style="transition-delay: 0.3s;">
-          <a href="#contact" class="btn-primary text-center">Get In Touch</a>
+          <a href="#contact" class="btn-secondary text-center">Get In Touch</a>
           {hasCv ? (
             <a
               href={cvHref}
@@ -144,22 +144,7 @@ const hasPortrait =
             ))
           }
         </div>
-        {hasPortrait && (
-          <div
-            class="portrait-peek-wrapper reveal"
-            aria-hidden="true"
-            style="transition-delay: 0.65s;"
-          >
-            <img
-              src={withBase(personalData.photo)}
-              alt={personalData.photoAlt ?? ''}
-              class="portrait-peek-img"
-              loading="lazy"
-              width="280"
-              height="350"
-            />
-          </div>
-        )}
+        
       </div>
 
       <div
