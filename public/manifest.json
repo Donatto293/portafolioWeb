@@ -1,9 +1,9 @@
 {
-  "name": "Astro Portfolio Theme",
-  "short_name": "PORTFOLIO",
+  "name": "Kevin Donato Portfolio",
+  "short_name": "DONATO",
   "display": "standalone",
-  "theme_color": "#020617",
-  "background_color": "#020617",
+  "theme_color": "#090d16",
+  "background_color": "#090d16",
   "icons": [
     {
       "src": "\/images\/favicons\/android-icon-36x36.png",
@@ -40,6 +40,12 @@
       "sizes": "192x192",
       "type": "image\/png",
       "density": "4.0"
+    },
+    {
+      "src": "\/images\/favicons\/android-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image\/png",
+      "purpose": "any maskable"
     }
   ]
 }

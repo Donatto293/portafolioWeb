@@ -15,7 +15,11 @@ import PrintResume from '../components/PrintResume.astro';
 ---
 
 <Layout>
-  <div class="web-only">
+  <div
+    class="web-only"
+    data-retro-base={import.meta.env.BASE_URL.replace(/\/?$/, '/')}
+    data-retro-count="21"
+  >
   <Header />
   <main id="main-content">
     <Hero />
@@ -32,12 +36,34 @@ import PrintResume from '../components/PrintResume.astro';
     <SectionDivider />
     <Projects />
     <SectionDivider />
-    <Certifications />
-    <SectionDivider />
     <Contact />
-    <SectionDivider />
   </main>
   <Footer />
   </div>
   <PrintResume />
 </Layout>
+
+<script>
+  const portfolioRoot = document.querySelector<HTMLElement>('.web-only[data-retro-base]');
+  const sections = [...document.querySelectorAll<HTMLElement>('.web-only main > section')];
+
+  if (portfolioRoot && sections.length > 0) {
+    const base = portfolioRoot.dataset.retroBase ?? '/';
+    const count = Number(portfolioRoot.dataset.retroCount ?? 21);
+    const indexes = Array.from({ length: count }, (_, index) => index + 1);
+
+    for (let index = indexes.length - 1; index > 0; index--) {
+      const swap = Math.floor(Math.random() * (index + 1));
+      [indexes[index], indexes[swap]] = [indexes[swap], indexes[index]];
+    }
+
+    sections.forEach((section, index) => {
+      const gif = indexes[index % indexes.length];
+      section.classList.add('retro-section');
+      section.style.setProperty(
+        '--retro-background',
+        `url("${base}images/retro-tv/bgtv_(${gif}).gif")`
+      );
+    });
+  }
+</script>

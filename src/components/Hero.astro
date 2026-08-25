@@ -46,12 +46,6 @@ if (!isExternalCv && !hasLocalCv && existsSync(cvPublicDir)) {
 const cvHref = isExternalCv ? cvValue : hasLocalCv ? cvValue : discoveredCv;
 const hasCv = Boolean(cvHref);
 
-const photoValue = (personalData.photo ?? '').trim();
-const isExternalPhoto = /^https?:\/\//i.test(photoValue);
-const hasPortrait =
-  photoValue !== '' &&
-  (isExternalPhoto ||
-    existsSync(join(process.cwd(), 'public', photoValue.replace(/^\//, ''))));
 ---
 
 <section id="home" class="relative min-h-screen overflow-hidden flex items-center">
@@ -86,12 +80,12 @@ const hasPortrait =
     >
       <div class="order-2 lg:order-1 space-y-6 relative">
         <p class="text-sm font-semibold tracking-widest text-highlight uppercase reveal">
-          Welcome to my portfolio
+          Available for new opportunities
         </p>
 
         <div class="reveal text-backdrop" style="transition-delay: 0.1s;">
           <h1 class="font-bold leading-tight" style="font-size: clamp(2.5rem, 5vw, 4.5rem);">
-            Hi, I'm<br />
+            Software developer building<br />
             <span class="gradient-text">{personalData.name}</span>
           </h1>
 
@@ -117,15 +111,15 @@ const hasPortrait =
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 reveal" style="transition-delay: 0.3s;">
-          <a href="#contact" class="btn-secondary text-center">Get In Touch</a>
+          <a href="#projects" class="btn-secondary text-center">View my work</a>
           {hasCv ? (
             <a
               href={cvHref}
               target="_blank"
               rel="noopener noreferrer"
-              class="btn-secondary text-center">Download CV</a>
+              class="btn-secondary text-center">View resume</a>
           ) : (
-            <button onclick="window.print()" class="btn-secondary text-center">Print Resume</button>
+            <button onclick="window.print()" class="btn-secondary text-center">View résumé</button>
           )}
         </div>
 

@@ -1,6 +1,5 @@
 ---
 import personalData from '../data/personal.json';
-import siteData from '../data/site.json';
 import { getSocialLinks } from '../lib/socialLinks';
 
 const socialLinks = getSocialLinks(personalData as unknown as Record<string, string | string[]>);

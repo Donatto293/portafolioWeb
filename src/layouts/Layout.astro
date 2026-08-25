@@ -69,7 +69,7 @@ function safeJsonLd(obj: object): string {
 ---
 
 <!doctype html>
-<html lang="en" style="color-scheme: dark; background: #000000;" data-theme-key={siteData.themeStorageKey}>
+<html lang="en" style="color-scheme: dark; background: #090d16;" data-theme-key={siteData.themeStorageKey}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -105,12 +105,15 @@ function safeJsonLd(obj: object): string {
     {personalData.twitter && <meta name="twitter:site"    content={personalData.twitter} />}
     {personalData.twitter && <meta name="twitter:creator" content={personalData.twitter} />}
 
-    <!-- Favicon: GIF first so animated-capable browsers prefer it -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- Brand icons generated from public/images/newFavicon.png -->
+    <link rel="icon" type="image/x-icon" href={`${base}favicon.ico`} />
+    <link rel="icon" type="image/png" sizes="32x32" href={`${base}images/favicons/favicon-32x32.png`} />
+    <link rel="icon" type="image/png" sizes="16x16" href={`${base}images/favicons/favicon-16x16.png`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`${base}images/favicons/apple-icon-180x180.png`} />
     <link rel="manifest" href={`${base}manifest.json`} />
     <meta name="msapplication-config" content={`${base}browserconfig.xml`} />
     <meta name="generator" content={Astro.generator} />
-    <meta name="theme-color" content="#000000" id="meta-theme-color" />
+    <meta name="theme-color" content="#090d16" id="meta-theme-color" />
     <link href={`${base}fonts/inter.css`} rel="stylesheet" />
     <script is:inline src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js" defer
     ></script>
@@ -131,9 +134,7 @@ function safeJsonLd(obj: object): string {
             document.documentElement.style.background = '#f8fafc';
             var m = document.getElementById('meta-theme-color');
             if (m) m.setAttribute('content', '#f8fafc');
-          } else {
-            document.documentElement.style.background = '#000000';
-          }
+          } else document.documentElement.style.background = '#090d16';
         } catch {}
       })();
     </script>
